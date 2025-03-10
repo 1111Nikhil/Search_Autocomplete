@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.list {
+  list-style: none;
+  height: 500px;
+  border: 1px solid black;
+  overflow-y: scroll;
+}
+
+.item {
+  cursor: pointer;
+  padding: 2px;
+}
+
+.item:hover {
+  background-color: rgb(211, 199, 199);
+}
